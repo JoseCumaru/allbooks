@@ -3,5 +3,4 @@ function teste() {
     return true;
 }
 
-
 module.exports = teste;
