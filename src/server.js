@@ -10,7 +10,7 @@ server.use(bodyParser.urlencoded({ extended: true }))
 server.use(bodyParser.json())
 server.use(jsonServer.defaults());
 
-server.use('/public', publicRoutes) //rotas na porta 8000
+server.use('/public', publicRoutes) //porta 8000
 
 
 server.use(/^(?!\/(public|livros|autores|categorias)).*$/, authenticationMiddleware);
