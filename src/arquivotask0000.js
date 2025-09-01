@@ -6,7 +6,7 @@ function teste() {
 module.exports = teste;
 
 
-function teste2() {]
+function teste2() {
     console.log("Funcao de teste 2");
     return true;
 }
